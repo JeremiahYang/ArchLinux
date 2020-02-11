@@ -29,13 +29,14 @@ fdisk -l 查看设备 fdisk：磁盘工具
 fdisk /dev/磁盘名就可以进入  
 按p看分区按g创建新的分区后只有一个分区目前不会写入（不会造成任何更改）接下来创建分区
 按n创建第一个分区默认1（直接回车） 起始位置默认2048（回车）设置分区大小+512M 可能会提示你之前有这个格式要不要移除选择Y 19：18
+## 创建账户
 
-
-
-
+## 必要软件
+git wget neovim xorg xorg-server yay wpa_supplicant dhcpcd nodejs ctags pip2 pip3 make sudo 
 
 
 ## 安装dwm
+修改*config.h* 文件中脚本文件的路径和功能按键  
 dwm窗口、菜单栏无法透明
 
 
@@ -57,4 +58,10 @@ suckless
 **scope.sh** 配置预览文件，预览视频，图片，文档。。。。
 
 **设置上下左右移动：** 在rc.conf文件中找到*VIM-LIKE*
-杨遗憾+
+
+## 窗口透明化
+**安装picom** :sudo pacman -S picom
+
+## 设置ssh公钥
+
+## 安装simple terminal
